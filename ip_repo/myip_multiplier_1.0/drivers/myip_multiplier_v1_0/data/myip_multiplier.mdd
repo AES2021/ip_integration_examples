@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER myip_multiplier
+	OPTION supported_peripherals = (myip_multiplier);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = myip_multiplier;
+END DRIVER
